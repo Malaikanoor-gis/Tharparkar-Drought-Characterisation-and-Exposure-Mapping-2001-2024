@@ -1,0 +1,8 @@
+Series,n years,Kendall tau,p-value,Sen slope per decade,Sen slope 95% CI per decade
+Jul–Oct rainfall (mm),24,0.3,0.044,87.07,2.36 to 155.51
+Jul–Oct SPI,24,0.3,0.044,0.61,0.01 to 1.10
+Jul–Oct VCI,24,0.35,0.017,13.69,2.15 to 26.07
+Jul–Oct VHI (2001–2019 only),19,0.13,0.447,1.93,-7.04 to 16.12
+"Jul–Oct rainfall (mm), without 2002",23,0.24,0.114,63.05,-21.34 to 138.75
+"Jul–Oct VCI, without 2002",23,0.3,0.05,12.34,-0.32 to 22.82
+Jul–Oct VCI residual after removing rainfall,24,0.22,0.145,7.82,-2.10 to 15.67
