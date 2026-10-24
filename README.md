@@ -55,6 +55,18 @@ Study period: 2001–2024 (288 months). Coordinate system of all maps: WGS 84 (E
 
 District-mean July–October rainfall averages about 286 mm per season and ranges from 23 mm (2002) to 522 mm (2011). Mean rainfall rises from west to east across the district (below 249 mm in the west to 318 mm or more in the east, Map 1).
 
+![Map 1: Mean monsoon rainfall](outputs/map_01_mean_rainfall.png)
+
+*Map 1. Mean July–October rainfall, 2001–2024.*
+
+![Monthly VHI, 2001–2024](outputs/fig_vhi_timeseries.png)
+
+*Figure 1. District-mean monthly VHI, 2001–2024.*
+
+![Annual indices and SPI](outputs/fig_diagnostics.png)
+
+*Figure 2. Annual mean VCI, TCI and VHI (left) and July–October SPI with VCI (right). Red bars are dry seasons (SPI ≤ −1).*
+
 Three seasons have SPI ≤ −1:
 
 | Season | Jul–Oct rainfall (mm) | SPI | Jul–Oct VCI | Jul–Oct VHI |
@@ -66,6 +78,22 @@ Three seasons have SPI ≤ −1:
 - 2002 was a district-wide drought: rainfall was below 10 % of average in the west and 10–25 % elsewhere, and most of the district had extreme vegetation stress (Maps 4 and 5).
 - 2004 and 2018 were milder: rainfall was mostly 25–50 % of average and the vegetation response was patchy.
 - Mean monsoon NDVI is low and fairly uniform (median 0.243; most pixels between 0.22 and 0.27), with the lowest values in the north (Map 2).
+
+![Map 2: Mean monsoon NDVI](outputs/map_02_mean_ndvi.png)
+
+*Map 2. Mean July–October NDVI, 2001–2024.*
+
+![Map 3: Frequency of rainfall deficit](outputs/map_03_rainfall_deficit_frequency.png)
+
+*Map 3. Number of seasons with rainfall below 75 % of the pixel mean.*
+
+![Map 4: Rainfall in the driest seasons](outputs/map_04_rainfall_dry_seasons.png)
+
+*Map 4. July–October rainfall as a percentage of average in 2002, 2004 and 2018.*
+
+![Map 5: VCI in the driest seasons](outputs/map_05_vci_dry_seasons.png)
+
+*Map 5. July–October VCI drought classes in 2002, 2004 and 2018.*
 
 ### Does vegetation follow rainfall?
 
@@ -85,6 +113,14 @@ Vegetation stress covered most of the district in all three seasons, so the comb
 
 About 2 % of the population falls in masked water or no-data pixels in each season. The full table is in `exposure_population_by_vci_class.csv`.
 
+![Exposure chart](outputs/exposure_population_chart.png)
+
+*Figure 3. Share of the district population in each VCI drought class.*
+
+![Map 6: Population exposure](outputs/map_06_population_exposure.png)
+
+*Map 6. Population density where VCI < 20 (extreme and severe) in the dry seasons.*
+
 ### Trends (2001–2024, n = 24)
 
 | Series | Kendall tau | p-value | Sen slope per decade | 95 % CI per decade |
@@ -98,6 +134,10 @@ About 2 % of the population falls in masked water or no-data pixels in each seas
 | VCI residual after removing rainfall | 0.22 | 0.145 | 7.82 | −2.10 to 15.67 |
 
 The upward trends in rainfall and VCI are weak. They depend on the extreme 2002 drought at the start of the record and on the wet seasons of 2020–2024: without 2002 the rainfall trend is not significant and the VCI trend is borderline, with a confidence interval that includes zero. After the effect of rainfall is removed, the VCI trend is not significant (p = 0.145), so most of the VCI increase is explained by the rainfall pattern. They are described as a tendency, not as established greening or wetting.
+
+![Trend figure](outputs/fig_trends.png)
+
+*Figure 4. July–October rainfall, SPI, VCI and VHI with Sen trend lines.*
 
 ## Validation against documented droughts
 
